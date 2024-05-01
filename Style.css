@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(214, 204, 191);
+}
+h1{
+    font-family: "Grenze Gotisch", serif;
+}
+.Exemplo{
+    border: 100px rgb(115, 126, 136);
+    font-family: "Grenze Gotisch", serif;
+}
