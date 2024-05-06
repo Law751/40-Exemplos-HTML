@@ -1,20 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplos HTML Elementos</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/40-Exemplos-HTML/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jacquard+24&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <div>
         <h1>Elementos em HTML</h1>
         <p>Um elemento HTML é definido por uma tag inicial, algum conteúdo e uma tag final.</p>
-        <P></P>
+        <p><strong>&lt;tagname> O conteudo &lt;/tagname></strong></p>
+        <p>Exemplos de alguns elementos HTML:</p>
+        <p>&lt;h1> Meu primeiro titulo &lt;/h1></p>
+        <p>&lt;p> Meu primeiro paragrafo &lt;/p></p>
+        <h1>Elementos HTML aninhados
+
+</HTML>
+</h1>
+<p>Os elementos HTML podem ser aninhados (isso significa que os elementos podem conter outros elementos).</p>
+<p>Todos os documentos HTML consistem em elementos HTML aninhados.</p>
+<p>O exemplo a seguir contém quatro elementos HTML ( , &lt;html>e ) :&lt;body>&lt;h1>&lt;p></p>
+</div>
+<div class="container">
+    <h4>Exemplo</h4>
+    <div class="editor" contenteditable="false">
+        <pre class="Exemplo">
+                &lt;!DOCTYPE html>
+                &lt;html>
+                &lt;body>
+
+                       &lt;h1>My First Heading&lt;/h1>
+                       &lt;p>My first paragraph.&lt;/p>
+
+                &lt;/body>
+                &lt;/html>
+            </pre>
     </div>
+</div>
+<div>
+    <h1><strong>Exemplo explicado</strong></h1>
+    <p>O &lt;html>elemento é o elemento raiz e define todo o documento HTML.</p>
+    <p>Possui uma tag inicial &lt;html>e uma tag final &lt;/html>.</p>
+    <p>Então, dentro do &lt;html>elemento existe um &lt;body> elemento:</p>
+</div>
+<div class="container">
+    <h4>Exemplo</h4>
+    <div class="editor" contenteditable="false">
+        <pre class="Exemplo">
+                &lt;body>
+
+                       &lt;h1>My First Heading&lt;/h1>
+                       &lt;p>My first paragraph.&lt;/p>
+
+                &lt;/body>      
+            </pre>
+    </div>
+</div>
+<div>
+    <p>O &lt;body>elemento define o corpo do documento.</p>
+    <p>Possui uma tag inicial &lt;body>e uma tag final &lt;/body>.</p>
+    <p>Então, dentro do &lt;body>elemento existem outros dois elementos: &lt;h1>e &lt;p>:</p>
+</div>
+<div class="container">
+    <h4>Exemplo</h4>
+    <div class="editor" contenteditable="false">
+        <pre class="Exemplo">
+                       &lt;h1>My First Heading&lt;/h1>
+                       &lt;p>My first paragraph.&lt;/p>      
+            </pre>
+    </div>
+</div>
+<div>
+    <p>O &lt;h1>elemento define um título.</p>
+    <p>Possui uma tag inicial &lt;h1>e uma tag final &lt;/h1></p>
+    <p>O &lt;p>elemento define um parágrafo.</p>
+    <p>Possui uma tag inicial &lt;p>e uma tag final &lt;/p>:</p>
+    <h1><strong>Nunca pule a tag final</strong></h1>
+    <p>Alguns elementos HTML serão exibidos corretamente, mesmo se você esquecer a tag final:</p>
+</div>
+<div class="container">
+    <h4>Exemplo</h4>
+    <div class="editor" contenteditable="false">
+        <pre class="Exemplo">
+                &lt;html>
+                    &lt;body>
+
+                        &lt;p>This is a paragraph
+                        &lt;p>This is a paragraph
+
+                    &lt;/body>
+                &lt;/html>    
+        </pre>
+        <p><strong>No entanto, nunca confie nisso! Resultados inesperados e erros podem ocorrer se você esquecer a tag final!</strong></p>
+    </div>
+</div>
+<div>
+    <h1><strong>Elementos HTML vazios</strong></h1>
+    <p>Elementos HTML sem conteúdo são chamados de elementos vazios.</p>
+    <p>A &lt;br>tag define uma quebra de linha e é um elemento vazio sem tag de fechamento:</p>
+</div>
+    <div class="container">
+        <h4>Exemplo</h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;p>This is a &lt;br> paragraph with a line break.&lt;/p>    
+            </pre>
+        </div>
+    </div>
+<div>
+    <h1><strong>HTML não diferencia maiúsculas de minúsculas</strong></h1>
+    <p>As tags HTML não diferenciam maiúsculas de minúsculas: &lt;P>significa o mesmo que &lt;p>.</p>
+    <p>O padrão HTML não exige tags em minúsculas, mas o W3C recomenda letras minúsculas em HTML e exige letras minúsculas para tipos de documentos mais rígidos, como XHTML.</p>
+</div>
+<div class="sidenav">
+    <h2>Menu</h2>
+    <a href="/40-Exemplos-HTML/Index.html" target="content" class="navbar"> Básico</a>
+    <a href="/40-Exemplos-HTML/Paginas/Elements.html" target="content" class="navbar"> Elementos</a>
+    <a href="/40-Exemplos-HTML/Paginas/Atributos.html" target="content" class="navbar">Atributos</a>
+</div>
 </body>
+
 </html>

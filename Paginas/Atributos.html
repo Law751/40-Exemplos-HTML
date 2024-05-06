@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos HTML Elementos</title>
+    <link rel="stylesheet" href="/40-Exemplos-HTML/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Jacquard+24&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1><strong>Atributos HTML</strong></h1>
+        <p>Os atributos HTML fornecem informações adicionais sobre os elementos HTML.</p>
+        <h3><strong>Atributos HTML</strong></h3>
+        <p>Todos os elementos HTML podem ter <strong>atributos</strong></p>
+        <p>Os atributos fornecem <strong>informações adicionais</strong> sobre os elementos</p>
+        <p>Os atributos são sempre especificados na <strong>tag inicial</strong></p>
+        <p>Os atributos geralmente vêm em pares nome/valor como: <strong>nome="valor"</strong></p>
+        <h1><strong>O atributo href</strong></h1>
+        <p>A tag &lt;a> define um hiperlink. O href atributo especifica o URL da página para a qual o link leva:</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;a href="https://www.w3schools.com">Visit W3Schools&lt;/a>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <h1><strong>O atributo src</strong></h1>
+        <p>A &lt;img>tag é usada para incorporar uma imagem em uma página HTML. O srcatributo especifica o caminho para
+            a imagem a ser exibida:</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;img src="img_girl.jpg">
+            </pre>
+        </div>
+    </div>
+    <div>
+        <p>Existem duas maneiras de especificar o URL no src atributo:</p>
+        <p><strong>1. URL absoluta</strong> - Links para uma imagem externa hospedada em outro site. Exemplo:
+            src="https://www.w3schools.com/images/img_girl.jpg" .</p>
+        <p><strong>Notas:</strong> Imagens externas podem estar protegidas por direitos autorais. Se você não obtiver
+            permissão para usá-lo, poderá estar violando as leis de direitos autorais. Além disso, você não pode
+            controlar imagens externas; ele pode ser removido ou alterado repentinamente.</p>
+        <p><strong>2. URL relativo</strong> - Links para uma imagem hospedada no site. Aqui, o URL não inclui o nome de
+            domínio. Se o URL começar sem barra, será relativo à página atual. Exemplo: src="img_girl.jpg". Se o URL
+            começar com uma barra, será relativo ao domínio. Exemplo: src="/images/img_girl.jpg".</p>
+        <p><strong>Dica:</strong> quase sempre é melhor usar URLs relativos. Eles não serão quebrados se você mudar de
+            domínio.</p>
+        <h1><strong>Os atributos de largura e altura</strong></h1>
+        <p>A &lt;img>tag também deve conter os atributos widthe height, que especificam a largura e a altura da imagem
+            (em pixels):</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;img src="img_girl.jpg" width="500" height="600">
+            </pre>
+        </div>
+    </div>
+    <div>
+        <h1><strong>O atributo alternativo</strong></h1>
+        <p>altO atributo obrigatório para a &lt;img> tag especifica um texto alternativo para uma imagem, se a imagem
+            por algum motivo não puder ser exibida. Isso pode ser devido a uma conexão lenta, ou a um erro no
+            srcatributo, ou se o usuário utiliza um leitor de tela.</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;img src="torii 1.jpg" alt="Girl with a jacket">
+            </pre>
+        </div>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <p>Veja o que acontece se tentarmos exibir uma imagem que não existe:</p>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;img src="img_typo.jpg" alt="Girl with a jacket">
+            </pre>
+        </div>
+    </div>
+    <div>
+        <h1><strong>O atributo de estilo</strong></h1>
+        <p>O style é o atributo usado para adicionar estilos a um elemento, como cor, fonte, tamanho e muito mais.</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;p style="color:red;">This is a red paragraph.&lt;/p>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <h1><strong>O atributo lang</strong></h1>
+        <p>Você deve sempre incluir o atributo lang dentro da &lt;html>tag, para declarar o idioma da página web. O
+            objetivo é ajudar os mecanismos de pesquisa e navegadores.</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;!DOCTYPE html>
+                &lt;html lang="pt">
+                &lt;body>
+                ...
+                &lt;/body>
+                &lt;/html>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <p>Os códigos de país também podem ser adicionados ao código do idioma no lang atributo. Assim, os dois
+            primeiros caracteres definem o idioma da página HTML e os dois últimos caracteres definem o país.</p>
+        <p>O exemplo a seguir especifica inglês como idioma e Estados Unidos como país:</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;!DOCTYPE html>
+                &lt;html lang="pt-br">
+                &lt;body>
+                ...
+                &lt;/body>
+                &lt;/html>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <h1><strong>O atributo do título</strong></h1>
+        <p>O titleatributo define algumas informações extras sobre um elemento.</p>
+        <p>O valor do atributo title será exibido como uma dica de ferramenta quando você passar o mouse sobre o elemento:</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;p title="I'm a tooltip">This is a paragraph.&lt;/p>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <h1><strong>Sugerimos: sempre use atributos em minúsculas</strong></h1>
+        <p>O padrão HTML não exige nomes de atributos em letras minúsculas.</p>
+        <p>O atributo title (e todos os outros atributos) podem ser escritos em letras maiúsculas ou minúsculas, como <strong>title</strong> ou <strong>TITLE</strong> .</p>
+        <p>No entanto, o W3C recomenda atributos em letras minúsculas em HTML e exige atributos em letras minúsculas para tipos de documentos mais rígidos, como XHTML.</p>
+        <h1><strong>Sugerimos: sempre citar valores de atributos</strong></h1>
+        <p>O padrão HTML não exige aspas nos valores dos atributos.</p>
+        <p>No entanto, o W3C recomenda citações em HTML e exige citações para tipos de documentos mais rígidos, como XHTML.</p>
+    </div>
+    <div class="container">
+        <h4><strong>Bom:</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;a href="https://www.w3schools.com/html/">Visit our HTML tutorial&lt;/a>
+            </pre>
+        </div>
+    </div>
+    <div class="container">
+        <h4><strong>Ruim:</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;a href=https://www.w3schools.com/html/>Visit our HTML tutorial&lt;/a>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <p>Às vezes você tem que usar aspas. Este exemplo não exibirá o atributo title corretamente, pois contém um espaço:</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;p title=About W3Schools>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <h1><strong>Aspas simples ou duplas?</strong></h1>
+        <p>Aspas duplas em torno de valores de atributos são as mais comuns em HTML, mas aspas simples também podem ser usadas.</p>
+        <p>Em algumas situações, quando o próprio valor do atributo contém aspas duplas, é necessário utilizar aspas simples:</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;p title='John "ShotGun" Nelson'>
+            </pre>
+        </div>
+    </div>
+    <div>
+        <p>Ou vice-versa:</p>
+    </div>
+    <div class="container">
+        <h4><strong>Exemplo</strong></h4>
+        <div class="editor" contenteditable="false">
+            <pre class="Exemplo">
+                &lt;p title="John 'ShotGun' Nelson">
+            </pre>
+        </div>
+    </div>
+    <div class="sidenav">
+        <h2>Menu</h2>
+        <a href="/40-Exemplos-HTML/Index.html" target="content" class="navbar"> Básico</a>
+        <a href="/40-Exemplos-HTML/Paginas/Elements.html" target="content" class="navbar"> Elementos</a>
+        <a href="/40-Exemplos-HTML/Paginas/Atributos.html" target="content" class="navbar">Atributos</a>
+    </div>
+</body>
+
+</html>
