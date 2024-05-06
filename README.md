@@ -10,3 +10,5 @@ Sinta-se à vontade para explorar, experimentar e modificar esses exemplos para 
 Contribuições são bem-vindas! Sinta-se à vontade para adicionar mais exemplos ou melhorar os existentes. Basta fazer um fork deste repositório, adicionar seus exemplos ou melhorias e enviar um pull request.
 
 Se você encontrar problemas ou tiver sugestões, por favor, abra uma issue.
+# Acesso 
+Você pode acessar o site entrando nesse link https://3exemploshtml.netlify.app
