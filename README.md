@@ -11,4 +11,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para adicionar mais exemplo
 
 Se você encontrar problemas ou tiver sugestões, por favor, abra uma issue.
 # Acesso 
-Você pode acessar o site entrando nesse link https://3exemploshtml.netlify.app
+Você pode acessar o site entrando nesse link (https://3exemplos.netlify.app/)
